@@ -3,7 +3,7 @@
 1. Project Overview
    This project is an E-commerce Order Management System designed from a Business Analyst perspective.
 
-2. Objectives
+3. Objectives
 - Define business requirements
 - Design order processing flow
 - Handle real-world edge cases
