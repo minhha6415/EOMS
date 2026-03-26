@@ -1,6 +1,7 @@
 # EOMS
 
 1. Project Overview
+
    This project is an E-commerce Order Management System designed from a Business Analyst perspective.
 
 3. Objectives
@@ -9,6 +10,7 @@
 - Handle real-world edge cases
 
 4. My Role
+
    Acted as a Business Analyst:
 - Gathered requirements
 - Defined use cases
