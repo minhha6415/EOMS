@@ -26,7 +26,8 @@ Given the customer is logged in.
 And the product has the status "In stock".
 And the urgent order has the status "Empty".
 When the customer clicks the "Buy" button,
-Then the system displays a confirmation popup: "Do you confirm purchase immediately without adding to cart?" And Customer confirms
+Then the system displays a confirmation popup: "Do you confirm purchase immediately without adding to cart?"
+And Customer confirms
 Then the system updates the urgent order status to “awaiting payment”
 And the system displays a payment popup
 And Customer confirms
@@ -43,3 +44,9 @@ Then the system displays the message "This product is currently out of stock and
 And the system does not change the product status
 
 - As a customer, I want to add goods to the order list
+Acceptance Criteria 1:add a good when its available.
+And the product has the status "In stock".
+When the customer clicks the "Add to cart" button.
+Then the system displays a confirmation popup: "Add to cart?"
+And Customer confirms
+Then the system displays the message "Add successful"
